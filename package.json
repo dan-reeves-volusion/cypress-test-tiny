@@ -1,23 +1,31 @@
 {
-  "name": "cypress-test-tiny",
-  "version": "1.0.0",
-  "description": "Small project for quickly testing Cypress.io test runner",
-  "scripts": {
-    "cypress:run": "cypress run",
-    "cypress:open": "cypress open",
-    "cypress:verify": "cypress verify",
-    "cypress:version": "cypress version",
-    "cypress:info": "cypress info",
-    "cypress:cache:list": "cypress cache list",
-    "list-videos": "ls -l cypress/videos"
-  },
-  "keywords": [],
-  "author": "Cypress-io",
-  "license": "ISC",
-  "devDependencies": {
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cypress-io/cypress-test-tiny.git"
+    "name": "v1-cypress-admin",
+    "version": "1.0.0",
+    "description": "cypress tests for v1 admin",
+    "main": "index.js",
+    "scripts": {
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "author": "volusion",
+    "license": "ISC",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "",
+    "devDependencies": {
+      "@faker-js/faker": "^8.1.0",
+      "cypress": "^13.16.0",
+      "cypress-wait-until": "^2.0.1",
+      "dayjs": "^1.11.10",
+      "dotenv": "^16.3.1",
+      "husky": "^8.0.3",
+      "prettier": "3.0.3"
+    },
+    "dependencies": {
+      "node-fetch": "^3.3.2"
+    }
   }
-}
+  
