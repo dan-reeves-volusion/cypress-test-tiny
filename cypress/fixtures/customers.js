@@ -16,3 +16,13 @@ export function RandomCustomer() {
       zipCode: "78717"
     };
   }
+
+  export const DefaultCreditCard = {
+    name: faker.person.fullName(),
+    number: "4242424242424242",
+    monthExp: '12',
+    yearExp: '2025',
+    securityCode: "900",
+    brand: "Visa",
+    lastDigits: "4242"
+  };

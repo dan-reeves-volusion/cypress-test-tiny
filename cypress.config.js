@@ -10,9 +10,7 @@ module.exports = defineConfig({
   viewportHeight: 768,
   chromeWebSecurity: false,
   experimentalMemoryManagement: true,
-  // experimentalSourceRewriting: true,
-  // modifyObstructiveCode: false,
-  // experimentalModifyObstructiveThirdPartyCode: true,
+  experimentalSourceRewriting: true,
   retries: {
     runMode: 2,
     openMode: 0,
